@@ -194,34 +194,44 @@
                 </div>
 
                 <!-- Formulario -->
-                <h2>Formulario</h2>
-                <li>Ingresa tu nombre y sexo:</li>
-                <input type="text" style="margin-left: 20px;" />
-                <input type="Radio" name="Sexo" value="Mujer" checked />mujer
-                <input type="Radio" name="Sexo" value="Hombre" checked />Hombre <br><br>
-                <li>Escoge las marcas que mas te gustaron:</li>
-                <input type="checkbox" name="autos" value="Bugatti" />Bugatti
-                <input type="checkbox" name="autos" value="Auidi" />Auidi
-                <input type="checkbox" name="autos" value="Roll Royce" />Roll Royce
-                <input type="checkbox" name="autos" value="Bmw" />Bmw
-                <input type="checkbox" name="autos" value="Porche" />Porche <br>
-                <input type="checkbox" name="autos" value="Mercedes Benz" />Mercedes Benz
-                <input type="checkbox" name="autos" value="Koenigsegg" />Koenigsegg
-                <input type="checkbox" name="autos" value="lamborghini" />lamborghini
+                <h2>Formulario:</h2>
+                <b>
+                    <li>Ingresa tu nombre y sexo:</li>
 
-                <select name="opcion">
-                    <option selected></option>
-                    <option>Bugatti</option>
-                    <option>Audi</option>
-                    <option>Roll Royce</option>
-                    <option>Bmw</option>
-                    <option>Porche</option>
-                    <option>Mercedes Benz</option>
-                    <option>Koenigsegg</option>
-                    <option>Lamborghini</option>
-                </select>
-                <input type="password" size="15" maxlength="10" />
-                <input type="button" name="boton_enviar" value="enviar" style="background-color:bisque" />
+                    <input type="text" style="margin-left: 20px;" />
+                    <input type="Radio" name="Sexo" value="Mujer" checked />Mujer
+                    <input type="Radio" name="Sexo" value="Hombre" checked />Hombre <br><br>
+
+                    <li>Escoge las marcas que mas te gustaron:
+                        <select name="opcion">
+                            <option selected></option>
+                            <option>Bugatti</option>
+                            <option>Audi</option>
+                            <option>Roll Royce</option>
+                            <option>Bmw</option>
+                            <option>Porche</option>
+                            <option>Mercedes Benz</option>
+                            <option>Koenigsegg</option>
+                            <option>Lamborghini</option>
+                        </select>
+                    </li>
+
+                    <!-- ListaMarcasColores -->
+                    <ul style="list-style-type: circle;">
+                        <li style="color: red;">Bugatti</li>
+                        <li style="color: aquamarine;">Bmw</li>
+                        <li style="color: blue;">Mercedes Benz</li>
+                        <li style="color: blueviolet;">Roll Royce</li>
+                        <li style="color: green;">lamborghini</li>
+                        <li style="color: yellow;">Koenigsegg</li>
+                        <li style="color: orange;">Auidi</li>
+                        <li style="color: black;">Porche</li>
+                    </ul>
+                    <li>Inglese la clave:</li>
+                    <input type="password" size="15" maxlength="10" style="margin-left: 20px;" />
+                    <input type="button" name="boton_enviar" value="enviar" style="background-color:bisque" />
+                </b>
+
             </article>
         </section>
     </main>
